@@ -25,13 +25,10 @@
   <parent>
     <groupId>org.jspringbot</groupId>
     <artifactId>jspringbot-libraries</artifactId>
-    <version>1.4</version>
+    <version>1.5-SNAPSHOT</version>
   </parent>
 
   <artifactId>jspringbot-general</artifactId>
-  <version>1.5-SNAPSHOT</version>
-
-  <packaging>jar</packaging>
   <name>jspringbot-general</name>
 
   <licenses>
@@ -82,35 +79,27 @@
   <properties>
     <libdoc.name>JSpringBot General Library</libdoc.name>
     <libdoc.output>JSpringBotGeneralLibrary.html</libdoc.output>
-    <juel.impl.version>2.2.4</juel.impl.version>
-    <xtream.version>1.4.3</xtream.version>
-    <jsoup.version>1.7.2</jsoup.version>
-    <java.faker.version>0.2</java.faker.version>
-    <lorem.ipsum.version>1.0</lorem.ipsum.version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.jspringbot</groupId>
       <artifactId>jspringbot-pretty-logger</artifactId>
-      <version>1.4</version>
     </dependency>
+
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-test</artifactId>
-      <version>${spring.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>${junit.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>junit-addons</groupId>
       <artifactId>junit-addons</artifactId>
-      <version>${junit.addons.version}</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
